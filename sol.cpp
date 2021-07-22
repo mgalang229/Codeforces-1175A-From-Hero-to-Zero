@@ -18,7 +18,7 @@ int main() {
 				// increment 'cnt'
 				cnt++;
 			} else {
-				// add the remainder of 'n' and 'k' to 'cnt'
+				// otherwise, add the remainder of 'n' and 'k' to 'cnt'
 				cnt += (n % k);
 				// subtract the remainder of 'n' and 'k' from 'n' itself (to make it divisible by 'k')
 				n -= (n % k);
